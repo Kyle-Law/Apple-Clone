@@ -20,7 +20,7 @@ html {
   --grey-1: #b0c7d8;
   --grey-2: #636363;
   --grey-3: #a9a9a9;
-  --blue:  #5ac6fb;
+  --blue: #5ac6fb;
 }
 
 /* Main Section */
@@ -111,7 +111,7 @@ footer {
 }
 
 .blue {
-  color:var(--blue);
+  color: var(--blue);
   cursor: pointer;
 }
 
