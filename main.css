@@ -19,6 +19,7 @@ html {
 :root {
     --grey-1:#B0C7D8;
     --grey-2:#636363;
+    --grey-3:#A9A9A9;
     --blue: #5AC6FB;
 }
 
@@ -90,10 +91,19 @@ h2 {
     grid-gap: 1.5px;
 }
 
+.container > img {
+    cursor: pointer;
+}
+
 /* Footer Section */
 footer {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid: repeat(2, 1fr) / repeat(2, 1fr);
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    color: var(--grey-3);
+    column-gap: 10px;
+    grid-auto-flow: column;
 }
 
 .blue {
@@ -101,14 +111,17 @@ footer {
     cursor: pointer;
 }
 
-.foot1 {
-    display: grid;
-    row-gap: 20px;
+.underline {
+    text-decoration: underline;
 }
 
 .foot2 > ul {
     display: grid;
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: repeat(7,max-content) 25px;
+    align-items: center;
+    list-style: none;
+    column-gap: 10px;
+    text-align: center;
 }
 
 .foot2 > ul > li > img {
