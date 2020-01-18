@@ -7,7 +7,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Apple-Clone/13b4fb9818e5e2ca6b4f00ec65f501f8c3c6f733/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Apple-Clone/f076de689d46cba6c1feb8c19aaa92671878e8eb/index.html)
 
 
 ## Authors
