@@ -108,6 +108,8 @@ footer {
   color: var(--grey-3);
   column-gap: 10px;
   grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
 }
 
 .blue {
